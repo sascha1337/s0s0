@@ -1,12 +1,10 @@
 module.exports = {
   content: [
-    './components/**/*.tsx',
-    './contexts/**/*.tsx',
-    './pages/**/*.tsx',
-    './utils/**/*.tsx',
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};

@@ -6,9 +6,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
     "@aws-sdk/client-s3": "^3",
     "@cosmjs/amino": "^0.27.0",
     "@cosmjs/cosmwasm-stargate": "^0",
@@ -16,14 +13,18 @@
     "@cosmjs/math": "^0",
     "@cosmjs/proto-signing": "^0",
     "@cosmjs/stargate": "^0",
-    "cosmjs-types": "^0.4.1",
     "@keplr-wallet/cosmos": "^0.9.16",
+    "cosmjs-types": "^0.4.1",
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-hot-toast": "^2"
-    
   },
   "devDependencies": {
+    "@types/react": "^18.0.5",
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.3"
   }
 }
