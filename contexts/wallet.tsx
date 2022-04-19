@@ -146,7 +146,7 @@ export const useWallet = createTrackedSelector<KeplrWalletStore>(useWalletStore)
  * to listen/subscribe various state changes.
  *
  */
-export const WalletProvider: FC = ({ children }) => {
+export const WalletProvider: FC = ({children}) => {
   return (
     <Fragment>
       {children}
