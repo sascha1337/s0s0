@@ -1,5 +1,6 @@
 import Head from "next/head";
 import "../styles/globals.css";
+import WalletLoader from "../components/WalletLoader";
 
 export default function App() {
     
@@ -10,6 +11,7 @@ export default function App() {
             <title>Smart Contract Spy</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
+        <WalletLoader />
         <div className="flex-col">
     
             <div className="text-center text-2xl bg-green-500">
